@@ -1,0 +1,77 @@
+/*****************рв╬Щ╬Э******************************/
+.main-bottom-container {
+    width: 1190px;
+    float: left;
+    margin-top: 17px;
+    position: relative;
+}
+.main-bottom-container h2{
+    font-size: 23px;
+    line-height: 1em;
+    color: #008CD6;
+    display: inline-block;
+}
+.main-bottom-container .change {
+    float: right;
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 700;
+    color: #008CD6;
+    display: inline-block;
+}
+.main-bottom-container .change:hover{
+    color: red;
+}
+.main-bottom-container ul {
+    display: none;
+    width: 1500px;
+    margin-top: 20px;
+    overflow: hidden;
+}
+.main-bottom-li{
+    float: left;
+    position: relative;
+    margin: 0 85px 0 0;
+    width: 340px;
+    height: 320px;
+/*    background-color: yellow;*/
+    cursor: pointer;
+    overflow: hidden;
+}
+.main-bottom-li img {
+    opacity: 0.6;
+}
+.main-bottom-container .text1 {
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    font:700 20px/50px "microsoft yahei";
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 30px;
+    display: block;
+    color: white;
+}
+.main-bottom-container .text2{
+    position: relative;
+    top: -150px;
+    font: 400 14px/28px "microsoft yahei";
+    text-align: center;
+    width: 160px;
+    margin: 0 auto;
+    display: block;
+    color: yellow;
+}
+.main-bottom-container .bg-font-bottom{
+    position: absolute;
+    left: 0;
+    bottom: -120px;
+    width: 100%;
+    height: 120px;
+    background-color: #008CD6;
+    opacity: 0.9;
+}
+.main-bottom-container .current {
+    display: block;
+}

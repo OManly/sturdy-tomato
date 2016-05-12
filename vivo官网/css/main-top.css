@@ -1,0 +1,78 @@
+
+.middleBanner {
+    width: 1190px;
+    margin: 0 auto;
+}
+
+.xuanGou1 {
+    width: 170px;
+    height: 145px;
+    display: block;
+    float: left;
+    background: url("../images/main-top/spirite.png") no-repeat 0 -121px;
+}
+.xuanGou2 {
+    width: 170px;
+    height: 145px;
+    display: block;
+    float: left;
+    background: url("../images/main-top/spirite.png") no-repeat 0 -267px;
+
+
+}
+.xuanGou3 {
+    width: 170px;
+    height: 145px;
+    display: block;
+    float: left;
+    background: url("../images/main-top/spirite.png") no-repeat -342px -121px;
+
+
+}
+.mBanner-t {
+    width: 315px;
+    height: 145px;
+    float: left;
+    margin-right: 80px;
+    cursor: pointer;
+}
+
+#middleUl{
+    list-style: none;
+    width: 110%;
+}
+
+#middleUl li{
+    width: 177px;
+    height: 560px;
+    float: left;
+}
+#middleSfq{
+    height: 558px;
+    position: relative;
+}
+.img {
+    float: left;
+}
+.i1{
+    width: 56px;
+    height: 56px;
+    display: block;
+    background: url("../images/main-top/spirite.png") no-repeat -188px -60px;
+    position: absolute;
+    top: 70%;
+    right:60px;
+}
+.youI:hover .i1{
+    background: url("../images/main-top/spirite.png") no-repeat 0px -412px;
+}
+.youI{
+    width: 173px;
+    height: 560px;
+    background-color: #e8e8e8;
+    /*position: absolute;*/
+    /*top: 60%;*/
+    /*right:60px;*/
+    float: right;
+
+}

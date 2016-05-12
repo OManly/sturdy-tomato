@@ -1,0 +1,164 @@
+/*main-middle ¿ªÊ¼*/
+.main-middle {
+    height: 600px;
+    padding: 24px 0 30px;
+    background: #fff;
+    font-size: 11px;
+    position: relative;
+}
+
+.main-middle-top {
+    height: 55px;
+    line-height: 55px;
+}
+
+.main-middle-top-L {
+    cursor: pointer;
+    width: 488px;
+    font-size: 23px;
+    color: #008CD6;
+    float: left;
+}
+
+.main-middle-top-R {
+    border: 1px solid #CACACA;
+    margin: 13px 0 16px;
+    float: right;
+}
+
+.main-middle-top-R:hover {
+    border: 1px solid #008CD6;
+}
+
+.main-middle-top-R:hover e {
+    background: url("../images/vivo-gb-ico.png") right -134px;
+}
+
+.main-middle-top-R a {
+    display: block;
+    width: 49px;
+    height: 24px;
+    line-height: 24px;
+    position: relative;
+    padding: 0 14px 0 7px;
+}
+
+.main-middle-top-R e {
+    display: block;
+    width: 6px;
+    height: 9px;
+    background: url("../images/vivo-gb-ico.png") right -125px;
+    position: absolute;
+    top: 7px;
+    left: 57px;
+}
+
+.main-middle-top-C {
+    float: right;
+}
+
+.main-middle-top-C li {
+    float: left;
+    margin-right: 30px;
+}
+
+.main-middle-bottom {
+    /*overflow: hidden;*/
+    height: 580px;
+}
+
+.main-middle-bottom1 {
+    height: 551px;
+    width: 1200px;
+    position: absolute;
+    z-index: 10;
+    margin-left: -1px;
+    overflow: hidden;
+}
+
+.main-middle-bottom1 li {
+    float: left;
+    height: 275px;
+    border: 1px solid #fff;
+    cursor: pointer;
+    position: absolute;
+}
+
+.main-middle-bottom1-li1 {
+    top: 0;
+    left: 0;
+}
+.main-middle-bottom1-li2 {
+    top: 0;
+    left: 489px;
+}
+.main-middle-bottom1-li3 {
+    top: 0;
+    left: 840px;
+}
+
+.main-middle-bottom1-li4 {
+    top: 275px;
+    left: 0;
+}
+.main-middle-bottom1-li5 {
+    top: 275px;
+    left: 351px;
+}
+.main-middle-bottom1-li6 {
+    top: 275px;
+    left: 840px;
+}
+.main-middle-bottom2 {
+    padding-left: 1px;
+    text-align: center;
+    display: none;
+}
+
+.main-middle-bottom2 li {
+    width: 216px;
+    height: 468px;
+    border: 1px solid #CACACA;
+    float: left;
+    margin-left: -1px;
+    padding: 20px 18px;
+}
+
+.main-middle-bottom2 img {
+    cursor: pointer;
+}
+
+.main-middle-bottom2-li1 h4 {
+    line-height: 47px;
+    font-size: 16px;
+    color: #333;
+    cursor: pointer;
+}
+
+.main-middle-bottom2-p1 {
+    border-top: 1px solid #d8d8d8;
+    border-bottom: 1px solid #d8d8d8;
+    line-height: 30px;
+    color: #999;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.main-middle-bottom2-p2 {
+    color: #ef4222;
+    font-size: 16px;
+    line-height: 37px;
+    height: 37px;
+}
+
+.main-middle-line {
+    width: 488px;
+    height: 3px;
+    background: #008CD6;
+    position: absolute;
+    top: 79px;
+    left: 0;
+    z-index: 11;
+}
+
+/*main-middle ½áÊø*/

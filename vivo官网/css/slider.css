@@ -1,0 +1,337 @@
+/*--------------slider begin--------------------------*/
+/*slider 提取样式 begin*/
+.slider{
+    margin-bottom: 20px;
+}
+.slider-box {
+    width: 100%;
+    overflow: hidden;
+    margin: 0 auto;
+    position: relative;
+}
+.slider-box .slider-box-ul {
+    width: 600%;
+    position: relative;
+    left: 0;
+}
+
+.slider-box ul li {
+    width: 16.6666667%;
+    height: 650px;
+    float: left;
+    position: relative;
+}
+
+.slider-box ul li a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.slider-stage {
+    width: 100%;
+    height: 100%;
+}
+
+/*slider 提取样式 end*/
+/*小椭圆 箭头 begin*/
+.more {
+    width: 90px;
+    height: 26px;
+    font-size: 12px;
+    line-height: 25px;
+    border: 1px #008cd6 solid;
+    color: #008fd5;
+    border-radius: 13px 13px 13px 13px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.more span em {
+    display: inline-block;
+    background: url(../images/sliderImages/vivo-gb-ico.png) no-repeat -78px 0;
+    width: 6px;
+    height: 9px;
+    margin-left: 5px;
+}
+
+/*小椭圆 箭头 end*/
+/*切换轮播图小圆点 begin*/
+.circle {
+    position: absolute;
+    /*bottom: 20px;*/
+    bottom: 40px;
+    left: 50%;
+    margin-left: -80px;
+    width: 160px;
+}
+
+.circle ul li {
+    float: left;
+    width: 16px;
+    height: 16px;
+    line-height: 16px;
+    background-color: #D9D9D9;
+    border-radius: 8px;
+    text-align: center;
+    color: #fff;
+    margin: 0 8px;
+    cursor: pointer;
+}
+
+.circle .current {
+    background-color: #008fd5;
+}
+
+/*切换轮播图小圆点 end*/
+/*第一 begin*/
+.slider-li-one {
+    background-color: #F7F7F7;
+}
+
+.slider-li-one .figure .f1 {
+    background: url(../images/sliderImages/vivomain-h-x6-f1-small.jpg) no-repeat;
+    display: block;
+    position: absolute;
+    width: 700px;
+    height: 100%;
+    top: 0;
+    left: 300px;
+    opacity: 0.3;
+}
+
+.slider-li-one.current .figure .f1 {
+    left: 240px;
+    transition: all 1s ease-in;
+    opacity: 1;
+}
+
+.slider-li-one .figure .f2 {
+    background: url(../images/sliderImages/vivomain-h-x6-f2-small.png) no-repeat;
+    display: block;
+    position: absolute;
+    width: 700px;
+    height: 100%;
+    top: 0;
+    left: 180px;
+    opacity: 0.3;
+}
+
+.slider-li-one.current .figure .f2 {
+    left: 240px;
+    transition: all 1s ease-in;
+    opacity: 1;
+}
+
+.slider-li-one .title {
+    width: 180px;
+    position: absolute;
+    right: 340px;
+    top: 200px;
+    text-align: center;
+    opacity: 0.3;
+}
+
+.slider-li-one.current .title {
+    transition: all 1s ease-in;
+    top: 220px;
+    opacity: 1;
+}
+
+.slider-li-one.current .more {
+    transition: all 1s ease-in;
+    margin-top: 40px;
+}
+
+.slider-li-one .title h2 {
+    background: url(../images/sliderImages/vivomain-h-x6-title-small.png) no-repeat;
+    width: 180px;
+    height: 87px;
+}
+
+/*第一 end*/
+/*第二 begin*/
+.slider-li-two .figure {
+    background: url(../images/sliderImages/vivomain-h-pic2-small.jpg);
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+
+.slider-li-two .title {
+    width: 382px;
+    position: absolute;
+    left: 50%;
+    top: 100px;
+    text-align: center;
+    margin-left: -191px;
+}
+
+.slider-li-two .title h2 {
+    background: url(../images/sliderImages/vivomain-h-title2-small.png) no-repeat;
+    width: 382px;
+    height: 118px;
+}
+
+.slider-li-two .more {
+    border: 1px white solid;
+    color: white;
+}
+
+.slider-li-two .more span em {
+    display: inline-block;
+    background: url(../images/sliderImages/vivo-gb-ico.png) no-repeat -582px -150px;
+    width: 4px;
+    height: 7px;
+    margin-left: 5px;
+}
+
+/*第二 end*/
+/*第三 begin*/
+.slider-li-three {
+    background-color: white;
+}
+
+.slider-li-three .figure {
+    background: url(../images/sliderImages/vivomain-h-pic1-small.jpg) no-repeat;
+    position: absolute;
+    width: 600px;
+    height: 100%;
+    top: 90px;
+    right: 290px;
+}
+
+.slider-li-three .title {
+    width: 300px;
+    position: absolute;
+    left: 340px;
+    top: 200px;
+    text-align: center;
+}
+
+.slider-li-three .title h2 {
+    background: url(../images/sliderImages/vivomain-h-title1.jpg) no-repeat;
+    width: 300px;
+    height: 142px;
+}
+
+/*第三 end*/
+/*第四 begin*/
+.slider-li-four .figure {
+    background: url(../images/sliderImages/vivomain-h-pic3-small.png) no-repeat;
+    position: absolute;
+    width: 360px;
+    height: 100%;
+    top: 80px;
+    left: 340px;
+}
+
+.slider-li-four .title {
+    width: 180px;
+    position: absolute;
+    right: 455px;
+    top: 263px;
+    text-align: center;
+}
+
+.slider-li-four {
+    background-color: #E9F1F4;
+    height: 100%;
+}
+
+.slider-li-four .title h2 {
+    background: url(../images/sliderImages/vivomain-h-title3-mini.png) no-repeat;
+    width: 180px;
+    height: 80px;
+}
+
+/*第四 end*/
+/*第五 begin*/
+.slider-li-five .figure .f1 {
+    background: url(../images/sliderImages/vm-h-y51-f1-mini.png) no-repeat;
+    display: block;
+    position: absolute;
+    width: 158px;
+    height: 100%;
+    top: -200px;
+    right: 335px;
+    opacity: 0;
+}
+
+.slider-li-five.current .figure .f1 {
+    top: -100px;
+    transition: all 1s ease-in;
+    opacity: 1;
+}
+
+.slider-li-five .figure .f2 {
+    background: url(../images/sliderImages/vm-h-y51-f2-mini.png) no-repeat;
+    display: block;
+    position: absolute;
+    width: 336px;
+    height: 100%;
+    top: 90px;
+    right: 450px;
+    opacity: 0.3;
+}
+
+.slider-li-five.current .figure .f2 {
+    right: 370px;
+    transition: all 1s ease-in;
+    opacity: 1;
+}
+
+.slider-li-five .figure .f3 {
+    background: url(../images/sliderImages/vm-h-y51-f3-mini.png) no-repeat;
+    display: block;
+    position: absolute;
+    width: 422px;
+    height: 100%;
+    top: 400px;
+    right: 180px;
+    opacity: 0;
+}
+
+.slider-li-five.current .figure .f3 {
+    top: 360px;
+    right: 180px;
+    transition: all 1s ease-in;
+    opacity: 1;
+}
+
+.slider-li-five .title {
+    width: 180px;
+    position: absolute;
+    top: 200px;
+    left: 400px;
+    text-align: center;
+    opacity: 0.3;
+}
+
+.slider-li-five.current .title {
+    transition: all 1s ease-in;
+    top: 220px;
+    opacity: 1;
+}
+
+.slider-li-five.current .more {
+    transition: all 1s ease-in;
+    margin-top: 40px;
+}
+
+.slider-li-five {
+    background-color: #E1ECEE;
+}
+
+.slider-li-five .title h2 {
+    background: url(../images/sliderImages/vm-h-y51-t1-small.jpg) no-repeat;
+    width: 202px;
+    height: 82px;
+}
+
+/*第五 end*/
+
+.main-bottom-container{
+    overflow: hidden;
+}

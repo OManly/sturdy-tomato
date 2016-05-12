@@ -1,0 +1,59 @@
+/*top-banner begin*/
+.top-banner{
+    /*background-color: #009B73;*/
+    background-color: #008fd5;
+    height: 35px;
+}
+.top-service {
+    float: left;
+}
+.top-service li{
+    float: left;
+    color: white;
+    font: 400 14px/35px "microsoft yahei";
+    padding: 0 20px;
+}
+.top-banner a {
+    color: white;
+}
+.top-banner a:hover {
+    color: yellow;
+}
+.top-banner .top-line{
+    width: 1px;
+    height: 35px;
+    padding: 0;
+    background-color: white;
+}
+.top-login {
+    float: right;
+}
+.top-login li{
+    float: left;
+    font: 400 14px/35px "microsoft yahei";
+    color:white;
+    padding: 0 20px;
+}
+.top-search {
+    float: right;
+    margin-right: 10px;
+}
+.top-search input {
+    margin-top: 6px;
+    padding-left: 5px;
+    float: left;
+    height: 25px;
+    width: 60px;
+    font: 400 14px/25px "microsoft yahei";
+    border-radius: 5px;
+    color: #8ABAB1;
+}
+.top-search button{
+    float: right;
+    margin-left: 10px;
+    width: 30px;
+    height: 30px;
+    margin-top: 3px;
+    background: url("../images/vivo.png") 0 -125px;
+    cursor: pointer;
+}

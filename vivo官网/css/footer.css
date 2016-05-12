@@ -1,0 +1,211 @@
+
+/*footer*/
+#vivo-footer-wrap{
+    position: relative;
+    z-index: 2;
+    height: 350px;
+    width: 100%;
+    background-color: #222;
+}
+#vivo-foot {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    z-index: 2;
+    height: 350px;
+    width: 100%;
+    color: #666;
+    background-color: #222;
+    font-size: 14px;
+}
+
+.vivo-f-logo {
+    padding: 40px 0 20px;
+    text-align: center;
+}
+.vivo-f-share {
+    margin-bottom: 40px;
+    text-align: center;
+    position: relative;
+    color: #999;
+}
+.vivo-f-share .vf-share-link {
+    margin-top: 20px;
+    position: relative;
+   /* height: 49px;
+    line-height: 49px;*/
+    /*line-height: 45px;*/
+}
+.vivo-f-share .vf-share-link a {
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+    margin: 0 4px;
+    background-color: #666;
+    border-radius: 50%;
+    transition: background-color 0.3s ease 0s;
+    -webkit-transition: background-color .3s ease;
+    -moz-transition: background-color .3s ease;
+    /*background: url(../images/vivo-gb-ico.png) no-repeat;*/
+}
+
+.vivo-f-share .vf-share-link i {
+    width: 45px;
+    height: 45px;
+    background: url(../images/vivo-gb-ico.png) no-repeat;
+}
+
+
+.vivo-f-share .vf-share-link .vf-f-sina:hover {
+    background-color: #f04545;
+}
+
+.vivo-f-share .vf-share-link a.vf-f-weixin:hover {
+    background-color: #20a900;
+}
+
+.vivo-f-share .vf-share-link a.vf-f-vi:hover {
+    background-color: #008cd6;
+}
+
+.vivo-f-share .vf-share-link a.vf-f-tieba:hover {
+    background-color: #2185ee;
+}
+
+
+.vivo-f-share .vf-share-link .vf-f-sina {
+    background-position: -420px -80px;
+}
+.vivo-f-share .vf-share-link a.vf-f-weixin  {
+    background-position: -555px -80px;
+}
+.vivo-f-share .vf-share-link a.vf-f-vi  {
+    background-position: -285px -80px;
+}
+.vivo-f-share .vf-share-link a.vf-f-tieba {
+    background-position: -330px -80px;
+}
+
+.vivo-f-share .vf-share-link .vf-f-sina .bg{
+    background-position: -420px -80px;
+}
+
+.vivo-f-share .vf-share-link a.vf-f-weixin .bg {
+    background-position: -555px -80px;
+}
+
+.vivo-f-share .vf-share-link a.vf-f-vi i {
+    background-position: -285px -80px;
+}
+
+.vivo-f-share .vf-share-link a.vf-f-tieba i {
+    background-position: -330px -80px;
+}
+
+
+
+.vf-share-link .vf-f-weixin {
+    position: relative;
+}
+.vf-share-link .vf-f-weixin .wx {
+    position: absolute;
+    left: -29px;
+    top: -110px;
+    z-index: 3;
+    width: 100px;
+    height: 120px;
+    display: none;
+    background: url(../images/vf-weixin-overbox-ico.jpg) no-repeat;
+}
+.vf-share-link .vf-f-weixin .tg {
+    position: relative;
+    left: 14px;
+    top: -10px;
+    z-index: 3;
+    background: url(../images/vivo-gb-ico.png) no-repeat;
+    background-position: -92px 0;
+    width: 14px;
+    height: 8px;
+    display: none;
+}
+/*.vf-weixin-overbox {
+    padding: 10px;
+    position: absolute;
+    bottom: 65px;
+    left: 0;
+    background: #fff;
+    border-radius: 2px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    z-index: 5;
+    /*display: none;*/
+
+/*.vf-weixin-overbox:after {
+    background: url(../images/vivo-gb-ico.png);
+    width: 18px;
+    height: 12px;
+    background-position: -90px 0;
+    position: absolute;
+    bottom: -12px;
+    left: 50%;
+    margin-left: -9px;
+    background-color: #fff;
+}*/
+
+.vf-f-sitelinks {
+    text-align: center;
+}
+.vf-f-sitelinks a {
+    display: inline-block;
+    margin: 0 6px;
+    transition: color 0.3s ease;
+}
+.vf-f-sitelinks a:hover {
+    color: #008cd6;
+}
+
+.vf-f-sitelinks a.vf-f-lan:after {
+    width: 6px;
+    height: 9px;
+    overflow: hidden;
+    margin-left: 4px;
+    background-position: -594px -125px;
+    top: -1px;
+    transition-delay: .1s;
+}
+
+.vf-f-copyright {
+    text-align: center;
+}
+
+#vivo-foot .vf-f-copyright {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 12px;
+    line-height: 1.4em;
+    color: #666;
+}
+
+#v-go-top {
+    position: fixed;
+    right: 15px;
+    bottom: 40px;
+    z-index: 999;
+    /*background-color: #181818;*/
+    border-radius: 5px;
+    display: none;
+}
+#v-go-top a {
+    display: block;
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    background: url(../images/vivo-gb-ico.png) no-repeat;
+    /*background-color: #181818;*/
+    background-color: #666;
+    background-position: -120px 4px;
+    transition: transform .5s .1s cubic-bezier(0.316967, 0.989541, 0.310022, 1);
+}
+#v-go-top a:hover {
+    background-color: #2185ee;
+    transition: 0.2s ease 0.2s;
+}

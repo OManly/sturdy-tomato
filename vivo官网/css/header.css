@@ -1,0 +1,53 @@
+.header{
+    height: 50px;
+    border-bottom: 1px solid #F2F2F2;
+}
+.logo{
+    background: url(../images/vivo-gb-logo.png) no-repeat center center;
+    width: 95px;
+    height: 50px;
+    float: left;
+}
+.top-nav{
+    width: 700px;
+    margin: 0 auto;
+}
+.top-nav ul li.current{
+    background-color: #008fd5;
+    color: white;
+}
+.top-nav ul li{
+    float: left;
+    height: 50px;
+    line-height: 50px;
+    font-size: 16px;
+    font-family: "微软雅黑";
+    padding: 0 20px;
+    cursor: pointer;
+}
+.header-right{
+    float: right;
+    margin-top: 10px;
+}
+.header-right .sp1{
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    background: url(../images/vivo-gb-ico.png) no-repeat 0 -125px;
+    margin-right: 5px;
+}
+.header-right .sp2{
+    display: inline-block;
+    height: 24px;
+    width: 28px;
+    border-radius: 14px 14px 14px 14px;
+    border: 1px solid #999999;
+    padding-top: 4px;
+}
+.header-right .sp2 em{
+    display: block;
+    width: 14px;
+    height: 16px;
+    background: url(../images/vivo-gb-ico.png) no-repeat -20px 0;
+    margin: 0 auto;
+}

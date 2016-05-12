@@ -1,0 +1,20 @@
+/*main begin*/
+.main{
+    font-size: 30px;/*临时的样式*/
+}
+.main-top{
+    height: 705px;
+}
+.main-middle{
+    height: 500px;
+    background-color: orange;
+}
+.main-bottom{
+    height: 500px;
+}
+/*main end*/
+.footer{
+    background: url(../images/footer.jpg);
+    height: 246px;
+}
+
